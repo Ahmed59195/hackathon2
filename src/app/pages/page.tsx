@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import { FaLocationDot } from "react-icons/fa6";
 import { FaPhoneFlip } from "react-icons/fa6";
 import { FaClock } from "react-icons/fa6";
