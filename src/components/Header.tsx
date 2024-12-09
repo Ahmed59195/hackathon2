@@ -15,6 +15,7 @@ const Header = () => {
 <div className="flex flex-row items-center gap-[8px] m-auto w-[255px] h-[16px] opacity-70">
   <div className="w-[16px] h-[16px]"></div>
   <p className="w-[231px] h-[14px] text-[13px] leading-[110%] text-white capitalize font-inter">
+    
   <FaCheck className='flex items-start' />
     Free shipping on all orders over $50
   </p>
@@ -42,11 +43,16 @@ const Header = () => {
 
   </div>
 
+  
   <div className='bg-gray-200 h-20 w-full pt-5 flex justify-around'>
-    <Image className="flex justify-center h-10 w-50" src={"/Images/Vector.png"} alt='Comforty' height={10} width={50}/>
-    <h1 className='font-bold text-4xl flex justify-start'>Comforty</h1>
-    <button className='flex items-center justify-between px-4 h-10 w-30 solid rounded-lg bg-white text-black '><BsCartDash className='flex justify-center' />Cart <p className='bg-blue-400 text-white tex-sm solid px-2 rounded-full'> 2</p></button>
-  </div>
+  <div className='flex'>
+    <Image className="h-10 w-50" src={"/Images/Vector.png"} alt='Comforty' height={10} width={50}/>
+    <h1 className='font-bold text-4xl'>Comforty</h1>
+    </div>
+    <div><button className='flex items-center justify-between px-4 h-10 w-30 solid rounded-lg bg-white text-black '><BsCartDash className='flex justify-center' />Cart <p className='bg-blue-400 text-white tex-sm solid px-2 rounded-full'> 2</p></button>
+    
+    </div>
+    </div>
 </div>
 
 </header>

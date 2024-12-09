@@ -55,16 +55,15 @@ const Footer = () => {
                     <h3 className='text-gray-500 font-bold'>NEWSLETTER</h3><br />
                     <div className=''>
                     <textarea className="rounded-lg h-12 w-60 text-xl" name="email" id="Email" placeholder='Your email'></textarea>
-                    <button className='solid rounded-lg mx-2 px-6 py-3 bg-blue-400 text-white text-center align-top'>Subscribe</button>
+                    <button className='solid rounded-lg mx-2 px-6 py-3 bg-cyan-600 text-white text-center align-top'>Subscribe</button>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Nullam tincidunt erat enim.</p>
                 </div>
                     
                     </div>
-
-<div className='flex justify-start'><p>@ 2021 - Blogy - Designed & Develop by <b>Zakirsoft</b></p> 
-<div className="flex justify-end items-end">
-    <Image src={"/public/footer.png"} alt='footer' height={20} width={100} /></div>
-</div>
+<div className='mt-10 flex justify-center w-full h-full'>
+<p>@ 2021 - Blogy - Designed & Develop by <b>Zakirsoft</b></p> 
+    <Image src={"/Images/footer.png"} alt='footer' height={100} width={100} />
+    </div>
 </div>
 </footer>
 </div>
